@@ -186,7 +186,7 @@
 %  ICON & LINK SHORTCUTS
 %=============================================================================
 
-\newcommand{\emaillink}[1]{\href{mailto:#1}{\faEnvelope\ \underline{#1}}}
+\newcommand{\emaillink}[1]{\href{mailto:#1}{\faEnvelope\ {#1}}}
 \newcommand{\githublink}[1]{\href{https://github.com/#1}{\faGithub\ \underline{github.com/#1}}}
 \newcommand{\linkedinlink}[1]{\href{https://linkedin.com/in/#1}{\faLinkedin\ \underline{linkedin.com/in/#1}}}
 \newcommand{\phoneicon}[1]{\faPhone\ #1}
