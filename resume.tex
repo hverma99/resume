@@ -1,6 +1,9 @@
 \documentclass{resume}
 \usepackage{ragged2e}
 
+% Vertical space inserted between consecutive entries within a section
+\newcommand{\entryspacing}{4pt}
+
 \begin{document}
 
 %=============================================================================
@@ -67,7 +70,7 @@ with hands-on industrial experience at American Airlines (irregular-operations r
       \resumeItemListEnd
 
     % --- Position 2 ---
-    \vspace{5pt}
+    \vspace{\entryspacing}
     \resumeSubheading
       {American Airlines}{Jun. 2026 -- Aug. 2026}
       {Graduate Operations Research \& Advanced Analytics Intern}{Dallas, TX}
@@ -87,11 +90,13 @@ with hands-on industrial experience at American Airlines (irregular-operations r
 \section{\bfseries Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Princeton University}{Princeton, NJ}
-      {PhD in Chemical Engineering}{Aug. 2022 -- Jun. 2027}
+      {Princeton University}{Aug. 2020 -- Jun. 2027}
+      {\textup{PhD in Chemical Engineering}}{Princeton, NJ}
+    
+    \vspace{\entryspacing}
     \resumeSubheading
-      {In}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+      {Indian Institute of Technology (IIT) Kanpur}{Jun. 2017 -- May 2021}
+      {\textup{Bachelor of Technology (B.Tech/BS) in Chemical Engineering}}{Kanpur, India}
   \resumeSubHeadingListEnd
 
 
