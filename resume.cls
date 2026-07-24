@@ -1,8 +1,7 @@
 %=============================================================================
 %
 %  RESUME CLASS (resume.cls)
-%  Based on: Jake Gutierrez (github.com/sb2nov/resume) | License: MIT
-%  Enhanced with grad-student helpers, icons, and formatting shortcuts
+%  Based on: Harshit Verma (github.com/hverma99/resume) | License: MIT
 %
 %  Usage: \documentclass{resume}
 %

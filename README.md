@@ -5,9 +5,8 @@ LaTeX-based resume with a reusable template class.
 ## Structure
 
 ```
-├── resume.cls                    # Template class (DO NOT EDIT for content changes)
+├── resume.cls                    # Template class (DO NOT EDIT)
 ├── resume.tex                    # Neutral master resume (EDIT THIS)
-├── template.tex                  # Original combined file (reference/backup)
 ├── variants/                     # Role-tailored versions
 │   ├── process-engineer.tex      # Industry R&D / Process Engineer flavor
 │   └── data-scientist.tex        # Data Science / ML flavor
