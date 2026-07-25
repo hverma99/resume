@@ -25,7 +25,7 @@
 %    \resumeProjectHeading{Title | Tech}{Dates}
 %    \researchHeading{Title}{Location}{Advisor}{Dates}
 %    \teachingentry{Term}{Course}{Instructor}{Institution}
-%    \award{Year(s)}{Award Name}{Institution}
+%    \award{Award Name}{, rest of one-liner}{Year(s)}   (bulleted, year right-aligned)
 %    \publication{You}{,CoAuthors,Title,}{Journal}{,Details.}{DOI-url}
 %    \conference{You}{,CoAuthors,Title,}{Venue}{,Loc,Date.}{Session}{DOI}
 %
@@ -246,12 +246,13 @@
   \end{tabular*}\vspace{-7pt}
 }
 
-% Award row:  \award{Year(s)}{Award Name}{Institution}
+% Award row:
+%   \award{Award Name (bolded)}{rest of one-liner, e.g. ", at Company/Institution"}{Year(s)}
 \newcommand{\award}[3]{
-  \item
-  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-    \small{#1 \quad \textbf{#2}} & \textit{\small #3} \\
-  \end{tabular*}\vspace{-7pt}
+  \item\small
+  \begin{tabularx}{\linewidth}{@{}X@{\hspace{6pt}}r@{}}
+    \textbf{#1}#2 & #3 \\
+  \end{tabularx}
 }
 
 % Research project heading:  \researchHeading{Title}{Location}{Advisor}{Dates}
