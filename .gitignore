@@ -25,6 +25,7 @@ variants/
 *.swo
 *~
 .vscode/
+.claude/
 
 # OS files
 .DS_Store
